@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "935041460328",
+    "project_id": "pfa-flutter-58416",
+    "storage_bucket": "pfa-flutter-58416.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935041460328:android:91b37f44fa6eb0499a33dd",
+        "android_client_info": {
+          "package_name": "com.example.traveler_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935041460328-e2rrtib1phbva72908b54jgsddofrvms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJs2DxlRGqVKo1TWdnEyIPeNRoYbagNuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935041460328-e2rrtib1phbva72908b54jgsddofrvms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
