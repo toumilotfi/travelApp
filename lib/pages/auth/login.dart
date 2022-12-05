@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -19,7 +18,6 @@ class Login extends StatefulWidget {
 }
 
 class _LoginState extends State<Login> {
-
   bool passwordHideShowToggle = false;
   bool conditionChecker = false;
   _showDevInformationDialog(BuildContext context) {
@@ -95,8 +93,18 @@ class _LoginState extends State<Login> {
                                   ],
                                 ),
                                 GestureDetector(
-                                    onTap: ()=>_showDevInformationDialog(context),
-                                    child: CircleAvatar(child: Icon(FontAwesomeIcons.info,color: Colors.black,size: 15,),radius: 15.r,backgroundColor: Colors.black.withOpacity(0.1),))
+                                    onTap: () =>
+                                        _showDevInformationDialog(context),
+                                    child: CircleAvatar(
+                                      child: Icon(
+                                        FontAwesomeIcons.info,
+                                        color: Colors.black,
+                                        size: 15,
+                                      ),
+                                      radius: 15.r,
+                                      backgroundColor:
+                                          Colors.black.withOpacity(0.1),
+                                    ))
                               ],
                             ),
                             SizedBox(height: 0.0.sh),
@@ -409,8 +417,9 @@ class _LoginState extends State<Login> {
                                     GestureDetector(
                                       onTap: () => Navigator.pushAndRemoveUntil(
                                           context,
-                                          MaterialPageRoute(builder: (_) =>  SignUpPage()),
-                                              (route) => false),
+                                          MaterialPageRoute(
+                                              builder: (_) => SignUpPage()),
+                                          (route) => false),
                                       child: Container(
                                         padding: EdgeInsets.all(0.009.sh),
                                         decoration: BoxDecoration(
@@ -449,6 +458,4 @@ class _LoginState extends State<Login> {
     ScaffoldMessenger.of(context)
         .showSnackBar(SnackBar(content: Text(message)));
   }
-
-
 }
